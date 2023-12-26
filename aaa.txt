@@ -1,0 +1,4 @@
+create database turkey
+go
+use turkey
+go
