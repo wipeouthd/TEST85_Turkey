@@ -2,3 +2,9 @@ create database turkey
 go
 use turkey
 go
+create table tblCustomer(
+id as biginit primary key identity(1,1)
+, name as varchar(20)
+, address as varchar(50)
+, postcode_id as bigint)
+go
